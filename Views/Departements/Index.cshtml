@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ufrSet.Models.Departement>
+
+@{
+    ViewData["Title"] = "Département";
+}
+
+@foreach (var item in Model)
+{
+ <div class="dep">
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/li.png" alt="Card image">
+            <div class="card-body">
+                <h5 class="card-title">    @Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Détails</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/lmi.png" alt="Card image">
+            <div class="card-body">
+                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Détails</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top pc" src="images/pc.png" alt="Card image" style="height:144px;">
+            <div class="card-body">
+                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Détails</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/eau.jpg" alt="Card image">
+            <div class="card-body">
+                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Détails</a>
+            </div>
+        </div>
+</div>
+
+ }
