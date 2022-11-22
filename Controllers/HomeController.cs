@@ -23,6 +23,27 @@ namespace ufrSet.Controllers
             return View();
         }
 
+        public IActionResult Maths()
+        {
+            return View();
+        }
+
+        public IActionResult Pc()
+        {
+            return View();
+        }
+
+        public IActionResult Eau()
+        {
+            return View();
+        }
+
+        public IActionResult Li()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

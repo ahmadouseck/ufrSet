@@ -75,8 +75,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsaWVyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Developement/aspCsharp/ufrSet/Views/Home/Eau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFYXUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Developement/aspCsharp/ufrSet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Developement/aspCsharp/ufrSet/Views/Home/Li.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Developement/aspCsharp/ufrSet/Views/Home/Maths.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXRocy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Developement/aspCsharp/ufrSet/Views/Home/Pc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Developement/aspCsharp/ufrSet/Views/Home/Privacy.cshtml]

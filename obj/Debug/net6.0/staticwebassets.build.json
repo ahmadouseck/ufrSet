@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TtLBQLVUvVZJbciN1DZtzRFj3Ayir7fCiRqvmssrU2I=",
+  "Hash": "z+TYkrC+7nWQkdyyNjEOnyk7mMhA12DfS5Y4hYDbB9o=",
   "Source": "ufrSet",
   "BasePath": "_content/ufrSet",
   "Mode": "Default",
@@ -151,23 +151,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lpc.jpg"
-    },
-    {
-      "Identity": "C:\\Developement\\aspCsharp\\ufrSet\\wwwroot\\images\\pc.jpg",
-      "SourceId": "ufrSet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Developement\\aspCsharp\\ufrSet\\wwwroot\\",
-      "BasePath": "_content/ufrSet",
-      "RelativePath": "images/pc.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pc.jpg"
     },
     {
       "Identity": "C:\\Developement\\aspCsharp\\ufrSet\\wwwroot\\images\\pc.png",

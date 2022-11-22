@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ufrSet.styles.css" asp-append-version="true" />
     <!-- Add others link-->
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--New bootstrap-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
 </head>
 <body>
  
@@ -21,7 +28,7 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <div class="navbar-collapse collapse d-sm-inline-flex m-lg-8 justify-content-between">
                         <ul class="navbar-nav flex-grow-1">
                     
                             <li class="nav-item">
@@ -29,7 +36,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Departements" asp-action="Index">Départements</a>
-                          
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Administrations" asp-action="Index">Administration</a>
@@ -37,10 +43,6 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Pers" asp-action="Index">PERs</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Condition d'accés</a>
-                            </li>
-                      
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
                             </li>
@@ -65,6 +67,12 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+    <!--new bootstrap-->
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
 </body>
 </html>

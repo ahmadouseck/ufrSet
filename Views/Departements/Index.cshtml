@@ -1,45 +1,100 @@
 ﻿@model IEnumerable<ufrSet.Models.Departement>
 
 @{
-    ViewData["Title"] = "Département";
+    ViewData["Title"] = "UfrSET - Département";
 }
 
+
+<div class="dep">
 @foreach (var item in Model)
 {
- <div class="dep">
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/li.png" alt="Card image">
+
+        <div class="card" style="width: 20rem;">
             <div class="card-body">
-                <h5 class="card-title">    @Html.DisplayFor(modelItem => item.Name)</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Détails</a>
+                <h5 class="card-title"> @Html.DisplayFor(modelItem => item.Name)</h5>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/lmi.png" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top pc" src="images/pc.png" alt="Card image" style="height:144px;">
-            <div class="card-body">
-                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/eau.jpg" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">  @Html.DisplayFor(modelItem => item.Name)</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-            </div>
-        </div>
+ 
+
+        }
 </div>
+<!-- Carousel wrapper -->
+<div id="carouselMultiItemExample"
+     class="carousel slide carousel-dark text-center"
+     data-mdb-ride="carousel">
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+        <button class="carousel-control-prev position-relative"
+                type="button"
+                data-mdb-target="#carouselMultiItemExample"
+                data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next position-relative"
+                type="button"
+                data-mdb-target="#carouselMultiItemExample"
+                data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+   
 
- }
+        <!-- Single item -->
+        <div class="carousel-item">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <div class="card">
+                            <img src="~/images/li.png"
+                                 class="card-img-top"
+                                 alt="Peaks Against the Starry Sky" />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                            <img src="~/images/li.png"
+                                 class="card-img-top"
+                                 alt="Bridge Over Water" />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.
+                                </p>
+ 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                            <img src="~/images/lmi.png"
+                                 class="card-img-top"
+                                 alt="Purbeck Heritage Coast" />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
